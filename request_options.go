@@ -74,6 +74,14 @@ func OptionBodyFormData(v interface{}) OptionFunc {
 	}
 }
 
+
+// request body for post (Json)
+func OptionBodyJson(v interface{}) OptionFunc {
+	return func(req *Request) {
+		req.SetBodyJson(v)
+	}
+}
+
 // set proxy for request
 func OptionProxy(v interface{}) OptionFunc {
 	switch t := v.(type) {
