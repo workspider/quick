@@ -1,4 +1,4 @@
-module github.com/telanflow/quick
+module github.com/workspider/quick
 
 go 1.13
 

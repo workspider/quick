@@ -6,7 +6,7 @@ import (
 	"encoding/base64"
 	"encoding/xml"
 	"errors"
-	"github.com/telanflow/quick/encode"
+	"github.com/workspider/quick/encode"
 	"io"
 	"net/http"
 	"net/url"

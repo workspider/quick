@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/telanflow/quick"
+	"github.com/workspider/quick"
 	"log"
 	"net/http"
 )
